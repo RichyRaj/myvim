@@ -44,3 +44,7 @@ autocmd BufWritePre * :%s/\s\+$//e " remove wihtespaces on save
 set path+=**
 let g:netrw_banner=0
 " }}
+
+" Mappings {{
+nnoremap <ESC><ESC> :nohlsearch<CR>
+" }}
