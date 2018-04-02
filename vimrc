@@ -1,5 +1,8 @@
 " Richard Raj's vim setup
 
+" Pathogen
+execute pathogen#infect()
+
 set nocompatible
 
 " Colors {{
@@ -47,4 +50,8 @@ let g:netrw_banner=0
 
 " Mappings {{
 nnoremap <ESC><ESC> :nohlsearch<CR>
+" }}
+
+" Folding {{
+set foldmethod=indent
 " }}
